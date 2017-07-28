@@ -1,0 +1,43 @@
+body{
+        margin:70px 0px 0px 15px;
+        font-color:black;
+    }
+    a{
+        display: none;
+        color: black;
+        font-size:16px;
+        
+    }
+    ul{
+        text-align: center;
+    }
+    .logo{
+        font-family:Edwardian Script ITC;
+        color: #00695c;
+        font-size: 80px;
+    }
+    hr{
+        border:1px solid;
+        border-color: #00695c;
+        width:50%;
+    }
+
+    a:hover { 
+    
+    color: #00695c;
+}
+  nav{
+    font-weight: bold;
+  }
+
+ .sub-product{
+    padding-top: 100px;
+}
+
+.affix {
+    top:0;
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+
+}
