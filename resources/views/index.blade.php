@@ -29,7 +29,9 @@
 </head>
 
 <style type="text/css">
-    
+  .sub-product{
+    padding: 40px 0 40px 0;
+  }  
 
     
 </style>
@@ -133,51 +135,33 @@
 
            </div>
                             <!--/.First column-->
-            <div class="row text-center " style="margin-top:400px;">
-                <div class="sub-product">
-                    <h4 >Featured Products</h4>
-                </div>
-            </div>Jacket
+            
 
             <div class="row">
+
+            <div class="row text-center">
+                <div class="col-md-12 sub-product">
+                    <h4 >Featured Products</h4>
+                </div>
+            </div>
+
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img class="img" src="img/jacket1.jpg">
-                                </a>
-                           
-
+                        <div class="card">
                             <div class="card-content">
-                                <h6 class="category text-rose">Trending</h6>
-                                <h4 class="card-title">
-                                    <a href="#pablo">Brown Jacket</a>
-                                </h4>
-                                <div class="card-description">
-                                    Dolce &amp; Gabbana's 'Greta' tote has been crafted in Italy from hard-wearing red textured-leather.
-                                </div>
-                                <div class="footer">
-                                    <div class="price">
-                                        <h5>&#8358; 2,500</h5>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
-                                            <i class="material-icons">favorite</i>
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
+                                <a href="#">
+                                    <img src="img/jacket1.jpg">
+                                </a>
 
                         </div>
+                    </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
                         <div class="card card-product">
                             <div class="card-image">
                                 <a href="#pablo">
-                                    <img class="img" src="{{url('img/jacket2.png')}}">
+                                    <img class="img" src="{{url('../img/jacket2.png')}}">
                                 </a>
                             <div class="colored-shadow" style="background-image: url(&quot;/img/img3.jpg&quot;); opacity: 1;"></div></div>
 
