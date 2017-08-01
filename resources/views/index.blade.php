@@ -32,7 +32,10 @@
   .sub-product{
     padding: 40px 0 40px 0;
   }  
-
+.image{
+    width:200px;
+    height: 250px;
+}
     
 </style>
 <body>
@@ -147,110 +150,62 @@
 
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
-                        <div class="card">
-                            <div class="card-content">
-                                <a href="#">
-                                    <img src="img/jacket1.jpg">
-                                </a>
-
-                        </div>
+                        <div class="card"> 
+                                    <img src="img/jacket1.jpg" class="image">  
+                        
                     </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img class="img" src="{{url('../img/jacket2.png')}}">
-                                </a>
-                            <div class="colored-shadow" style="background-image: url(&quot;/img/img3.jpg&quot;); opacity: 1;"></div></div>
-
-                            <div class="card-content">
-                                <h6 class="category text-muted">Popular</h6>
-                                <h4 class="card-title">
-                                    <a href="#pablo">Balmain</a>
-                                </h4>
-                                <div class="card-description">
-                                    Balmain's mid-rise skinny jeans are cut with stretch to ensure they retain their second-skin fit but move comfortably.
-                                </div>
-                                <div class="footer">
-                                    <div class="price">
-                                        <h4>&#8358 1,500</h4>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist">
-                                            <i class="material-icons">favorite</i>
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                        <div class="card"> 
+                                    <img src="img/jacket2.png" class="image">  
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img class="img" src="img/jacket3.jpg">
-                                </a>
-                            <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/card-product4.jpg&quot;); opacity: 1;"></div></div>
-
-                            <div class="card-content">
-                                <h6 class="category text-muted">Popular</h6>
-                                <h4 class="card-title">
-                                    <a href="#pablo">Balenciaga</a>
-                                </h4>
-                                <div class="card-description">
-                                    Balenciaga's black textured-leather wallet is finished with the label's iconic 'Giant' studs. This is where you can...
-                                </div>
-                                <div class="footer">
-                                    <div class="price">
-                                        <h4>$590</h4>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
-                                            <i class="material-icons">favorite</i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="card"> 
+                                    <img src="img/jacket3.jpg" class="image">  
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img class="img" src="">
-                                </a>
-                            <div class="colored-shadow" style="background-image: url(&quot;../assets/img/examples/card-product2.jpg&quot;); opacity: 1;"></div></div>
-
-                            <div class="card-content">
-                                <h6 class="category text-rose">Trending</h6>
-                                <h4 class="card-title">
-                                    <a href="#pablo">Dolce &amp; Gabbana</a>
-                                </h4>
-                                <div class="card-description">
-                                    Dolce &amp; Gabbana's 'Greta' tote has been crafted in Italy from hard-wearing red textured-leather.
-                                </div>
-                                <div class="footer">
-                                    <div class="price">
-                                        <h4>$1,459</h4>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist">
-                                            <i class="material-icons">favorite</i>
-                                        </button>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                        <div class="card"> 
+                                    <img src="img/jacket4.jpeg" class="image">  
                         </div>
                     </div>
 
+                    
+
+                </div>
+                <br>
+
+                 <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card"> 
+                                    <img src="img/shoe1.png" class="image" >  
+                        
+                    </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card"> 
+                                    <img src="img/shoe2.jpg" class="image" >  
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card"> 
+                                    <img src="img/shoe3.jpg" class="image" >  
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card"> 
+                                    <img src="img/shoe5.jpg" class="image" >  
+                        </div>
+                    </div>
+
+                   
                 </div>
                
             
