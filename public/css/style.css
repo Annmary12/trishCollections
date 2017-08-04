@@ -1,6 +1,7 @@
 body{
         margin:15px 0px 0px 15px;
         font-color:black;
+        position: relative;
     }
     a{
         display: none;
@@ -40,6 +41,12 @@ body{
     text-align: center;
     padding-top: 20px;
 
+}
+@media (min-width: 55%){
+    .affix {
+        width: 30%
+        text-align:center;
+    }
 }
 
 .product-desc{

@@ -13,6 +13,7 @@
     .footer-below{
         background: #161616;
         padding: 20px 0 20px 0;
+        text-align:center;
     }
 
     .payment-image{
