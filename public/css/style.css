@@ -1,5 +1,5 @@
 body{
-        margin:70px 0px 0px 15px;
+        margin:15px 0px 0px 15px;
         font-color:black;
     }
     a{
@@ -38,6 +38,11 @@ body{
     top:0;
     width: 25%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 
+}
+
+.product-desc{
+    text-align:center;
+    color:red;
 }
